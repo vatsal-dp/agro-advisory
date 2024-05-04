@@ -1,0 +1,181 @@
+07-Mar-2024 09:45:05.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+07-Mar-2024 09:45:05.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+07-Mar-2024 09:45:05.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+07-Mar-2024 09:45:05.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2024 09:45:05.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+07-Mar-2024 09:45:05.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2024 09:45:05.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home
+07-Mar-2024 09:45:05.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-86
+07-Mar-2024 09:45:05.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2024 09:45:05.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 09:45:05.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 09:45:05.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2024 09:45:05.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/conf/logging.properties
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2024 09:45:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2024 09:45:05.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2024 09:45:05.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2024 09:45:05.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2024 09:45:05.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 09:45:05.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 09:45:05.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/temp
+07-Mar-2024 09:45:05.486 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vatsalpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2024 09:45:06.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 09:45:06.080 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1335] milliseconds
+07-Mar-2024 09:45:06.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2024 09:45:06.230 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+07-Mar-2024 09:45:06.266 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war]
+07-Mar-2024 09:45:20.912 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2024 09:45:56.214 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war] has finished in [49,947] ms
+07-Mar-2024 09:45:56.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs]
+07-Mar-2024 09:45:56.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs] has finished in [51] ms
+07-Mar-2024 09:45:56.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager]
+07-Mar-2024 09:45:56.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager] has finished in [69] ms
+07-Mar-2024 09:45:56.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples]
+07-Mar-2024 09:45:56.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples] has finished in [400] ms
+07-Mar-2024 09:45:56.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT]
+07-Mar-2024 09:45:56.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT] has finished in [23] ms
+07-Mar-2024 09:45:56.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager]
+07-Mar-2024 09:45:56.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager] has finished in [33] ms
+07-Mar-2024 09:45:56.803 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 09:45:56.866 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [50787] milliseconds
+07-Mar-2024 11:57:00.035 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/untitled folder]
+07-Mar-2024 11:57:00.195 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/untitled folder] has finished in [163] ms
+07-Mar-2024 11:57:10.211 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis]
+07-Mar-2024 11:57:10.259 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis] has finished in [48] ms
+07-Mar-2024 14:26:49.238 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2024 14:26:49.244 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 14:26:49.255 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2024 14:26:51.241 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [FileSystemWatcher-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+07-Mar-2024 14:26:51.243 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [EMF Reference Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+07-Mar-2024 14:26:51.248 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [GuavaAuthCache-0-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+07-Mar-2024 14:26:51.261 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+07-Mar-2024 14:26:51.261 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Batik CleanerThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+07-Mar-2024 14:26:51.263 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@7ee3d4a]) and a value of type [org.geowebcache.storage.CompositeBlobStore.StoreSuitabilityCheck] (value [EXISTING]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.264 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@34c02fdc]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.265 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@5b602b39]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.265 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@6e6b5146]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.265 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@5a524a8c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.266 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@6e07d1e1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.266 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@59ecf769]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.266 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@55d3cf04]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.266 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@1d9de918]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.267 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@4d45bb93]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.267 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@732c5aed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.267 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@2d1247bc]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@384c1063]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.270 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2a9248a6]) and a value of type [org.geoserver.ows.Request] (value [WMS 1.1.0 GetMap]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.271 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2a9248a6]) and a value of type [org.geoserver.ows.Request] (value [wms 1.3.0 getCapabilities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 14:26:51.293 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 14:26:51.310 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 15:00:37.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+07-Mar-2024 15:00:37.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+07-Mar-2024 15:00:37.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+07-Mar-2024 15:00:37.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2024 15:00:37.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+07-Mar-2024 15:00:37.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2024 15:00:37.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home
+07-Mar-2024 15:00:37.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-86
+07-Mar-2024 15:00:37.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2024 15:00:37.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 15:00:37.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 15:00:37.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2024 15:00:37.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2024 15:00:37.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2024 15:00:37.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2024 15:00:37.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2024 15:00:37.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/conf/logging.properties
+07-Mar-2024 15:00:37.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2024 15:00:37.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2024 15:00:37.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2024 15:00:37.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2024 15:00:37.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2024 15:00:37.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 15:00:37.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+07-Mar-2024 15:00:37.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/temp
+07-Mar-2024 15:00:37.970 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vatsalpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2024 15:00:38.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 15:00:38.610 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1333] milliseconds
+07-Mar-2024 15:00:38.707 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2024 15:00:38.708 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+07-Mar-2024 15:00:38.740 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war]
+07-Mar-2024 15:00:55.114 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2024 15:01:18.984 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war] has finished in [40,243] ms
+07-Mar-2024 15:01:18.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs]
+07-Mar-2024 15:01:19.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs] has finished in [75] ms
+07-Mar-2024 15:01:19.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis]
+07-Mar-2024 15:01:19.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis] has finished in [26] ms
+07-Mar-2024 15:01:19.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager]
+07-Mar-2024 15:01:19.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager] has finished in [59] ms
+07-Mar-2024 15:01:19.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples]
+07-Mar-2024 15:01:19.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples] has finished in [434] ms
+07-Mar-2024 15:01:19.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT]
+07-Mar-2024 15:01:19.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT] has finished in [28] ms
+07-Mar-2024 15:01:19.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager]
+07-Mar-2024 15:01:19.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager] has finished in [36] ms
+07-Mar-2024 15:01:19.656 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 15:01:19.693 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [41084] milliseconds
+07-Mar-2024 15:35:20.345 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2024 15:35:20.349 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 15:35:20.355 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2024 15:35:22.458 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [FileSystemWatcher-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+07-Mar-2024 15:35:22.481 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [EMF Reference Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+07-Mar-2024 15:35:22.484 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [GuavaAuthCache-0-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+07-Mar-2024 15:35:22.487 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@379c25e8]) and a value of type [org.geowebcache.storage.CompositeBlobStore.StoreSuitabilityCheck] (value [EXISTING]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 15:35:22.488 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@459e71a4]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+07-Mar-2024 15:35:22.510 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2024 15:35:22.517 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

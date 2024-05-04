@@ -1,0 +1,902 @@
+30-Apr-2024 08:58:59.276 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 08:58:59.300 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 08:59:00.350 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Beginning GeoServer cleanup sequence
+30-Apr-2024 08:59:00.353 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.sqlite.JDBC@e6d89c9
+30-Apr-2024 08:59:00.353 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.postgresql.Driver@c5726d3
+30-Apr-2024 08:59:00.354 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.hsqldb.jdbc.JDBCDriver@508cd7c9
+30-Apr-2024 08:59:00.354 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.h2.Driver@15d9febf
+30-Apr-2024 08:59:00.369 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverWKTOperationFactory["European Petroleum Survey Group"]
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = PropertyCoordinateOperationAuthorityFactory["European Petroleum Survey Group"]
+    CRS_FACTORY                          = ReferencingObjectFactory                                                      
+    CS_FACTORY                           = (same as CRS_FACTORY)                                                         
+    DATUM_FACTORY                        = DatumAliases                                                                  
+    MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                                   
+
+30-Apr-2024 08:59:00.372 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 08:59:00.549 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 08:59:00.564 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverOverridingWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+30-Apr-2024 08:59:00.567 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 08:59:00.641 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverCustomWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+30-Apr-2024 08:59:00.643 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory CartesianAuthorityFactory["European Petroleum Survey Group"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 08:59:00.646 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory WebCRSFactory["Web Map Service CRS"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 08:59:00.647 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 08:59:00.647 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory AutoCRSFactory["Automatic Projections"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 08:59:00.649 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 08:59:00.709 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 08:59:00.715 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT referencing threads 
+30-Apr-2024 08:59:00.720 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT  SPI 
+30-Apr-2024 08:59:00.720 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down coverage thread pool 
+30-Apr-2024 08:59:00.721 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi@5206b407
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi@152699a2
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi@1d0ebf49
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi@13f2573a
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.FileImageInputStreamExtImplSpi@1f527e1f
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.cog.CogImageReaderSpi@2a54d605
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi@70460197
+30-Apr-2024 08:59:00.722 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi@796f1efd
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.cog.CogImageInputStreamSpi@4070cc26
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageWriterSpi@43126785
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi@37949a0c
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi@13d112c8
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.URLImageInputStreamSpi@783fa365
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.URLImageOutputStreamSpi@4b3088ed
+30-Apr-2024 08:59:00.723 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi@16defafc
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.StringImageOutputStreamSpi@5a3d36d8
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.StringImageInputStreamSpi@741198fb
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi@60431728
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi@210424e8
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi@a0887a4
+30-Apr-2024 08:59:00.724 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider org.geotools.geopkg.ByteArrayImageInputStreamSpi@217def53
+30-Apr-2024 08:59:00.725 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi@55a80587
+30-Apr-2024 08:59:00.725 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageReaderSpi@65c60c34
+30-Apr-2024 08:59:00.725 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.FileImageOutputStreamExtImplSpi@970a986
+30-Apr-2024 08:59:00.725 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi@170dc33a
+30-Apr-2024 08:59:00.725 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi@6b0e01f9
+30-Apr-2024 08:59:00.730 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyRIF
+30-Apr-2024 08:59:00.731 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyCRIF
+30-Apr-2024 08:59:00.731 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibLogRIF
+30-Apr-2024 08:59:00.731 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.LogCRIF
+30-Apr-2024 08:59:00.731 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNMRIF
+30-Apr-2024 08:59:00.732 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPCRIF
+30-Apr-2024 08:59:00.732 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibGradientRIF
+30-Apr-2024 08:59:00.732 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GradientRIF
+30-Apr-2024 08:59:00.732 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PatternRIF
+30-Apr-2024 08:59:00.733 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNGRIF
+30-Apr-2024 08:59:00.733 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.nullop.NullCRIF
+30-Apr-2024 08:59:00.733 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileStoreRIF
+30-Apr-2024 08:59:00.733 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.zonal.ZonalStatsRIF
+30-Apr-2024 08:59:00.734 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCRIF
+30-Apr-2024 08:59:00.734 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.jiffleop.JiffleRIF
+30-Apr-2024 08:59:00.734 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandcombine.BandCombineCRIF
+30-Apr-2024 08:59:00.734 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.translate.TranslateCRIF
+30-Apr-2024 08:59:00.735 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibConvolveRIF
+30-Apr-2024 08:59:00.735 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConvolveRIF
+30-Apr-2024 08:59:00.735 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDCTRIF
+30-Apr-2024 08:59:00.735 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DCTCRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GIFRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.format.FormatCRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPResolutionRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxRIF
+30-Apr-2024 08:59:00.736 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxCRIF
+30-Apr-2024 08:59:00.737 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.border.BorderRIF
+30-Apr-2024 08:59:00.737 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.rescale.RescaleCRIF
+30-Apr-2024 08:59:00.737 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.binarize.BinarizeCRIF
+30-Apr-2024 08:59:00.737 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideComplexCRIF
+30-Apr-2024 08:59:00.737 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDilateRIF
+30-Apr-2024 08:59:00.738 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DilateRIF
+30-Apr-2024 08:59:00.738 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibHistogramRIF
+30-Apr-2024 08:59:00.738 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.HistogramRIF
+30-Apr-2024 08:59:00.738 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCollectionCRIF
+30-Apr-2024 08:59:00.738 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.URLRIF
+30-Apr-2024 08:59:00.739 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class org.jaitools.media.jai.vectorize.VectorizeRIF
+30-Apr-2024 08:59:00.739 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PolarToComplexCRIF
+30-Apr-2024 08:59:00.739 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.colorindexer.ColorIndexerCRIF
+30-Apr-2024 08:59:00.739 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.classbreaks.ClassBreaksRIF
+30-Apr-2024 08:59:00.739 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractConstRIF
+30-Apr-2024 08:59:00.740 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractConstCRIF
+30-Apr-2024 08:59:00.740 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxFilterRIF
+30-Apr-2024 08:59:00.740 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxFilterRIF
+30-Apr-2024 08:59:00.740 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.JPEGRIF
+30-Apr-2024 08:59:00.741 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.errordiffusion.ErrorDiffusionRIF
+30-Apr-2024 08:59:00.741 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.algebra.constant.OperationConstCRIF
+30-Apr-2024 08:59:00.741 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.piecewise.GenericPiecewiseCRIF
+30-Apr-2024 08:59:00.741 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCRIF
+30-Apr-2024 08:59:00.742 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMeanRIF
+30-Apr-2024 08:59:00.743 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MeanRIF
+30-Apr-2024 08:59:00.743 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.EncodeRIF
+30-Apr-2024 08:59:00.743 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PhaseCRIF
+30-Apr-2024 08:59:00.746 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConjugateCRIF
+30-Apr-2024 08:59:00.747 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.orderdither.OrderedDitherRIF
+30-Apr-2024 08:59:00.747 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrRIF
+30-Apr-2024 08:59:00.747 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrCRIF
+30-Apr-2024 08:59:00.747 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.shadedrelief.ShadedReliefRIF
+30-Apr-2024 08:59:00.747 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandmerge.BandMergeCRIF
+30-Apr-2024 08:59:00.748 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.crop.CropCRIF
+30-Apr-2024 08:59:00.748 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExtremaRIF
+30-Apr-2024 08:59:00.748 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExtremaRIF
+30-Apr-2024 08:59:00.748 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractRIF
+30-Apr-2024 08:59:00.748 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractCRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConstantCRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDFTRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDFTCRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibInvertRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.InvertCRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PiecewiseCRIF
+30-Apr-2024 08:59:00.749 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideByConstRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideByConstCRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrConstRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrConstCRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.mosaic.MosaicRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.algebra.AlgebraCRIF
+30-Apr-2024 08:59:00.750 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibRotateRIF
+30-Apr-2024 08:59:00.751 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.RotateCRIF
+30-Apr-2024 08:59:00.751 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorConstRIF
+30-Apr-2024 08:59:00.751 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorConstCRIF
+30-Apr-2024 08:59:00.751 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibShearRIF
+30-Apr-2024 08:59:00.751 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ShearRIF
+30-Apr-2024 08:59:00.752 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeSquaredCRIF
+30-Apr-2024 08:59:00.752 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddConstRIF
+30-Apr-2024 08:59:00.752 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstCRIF
+30-Apr-2024 08:59:00.752 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.rlookup.RangeLookupRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndCRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.StreamRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.colorconvert.ColorConvertCRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorRIF
+30-Apr-2024 08:59:00.753 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorCRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.classifier.RasterClassifierCRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAbsoluteRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AbsoluteCRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractFromConstRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractFromConstCRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibCompositeRIF
+30-Apr-2024 08:59:00.754 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.CompositeCRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BMPRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TIFFRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBoxFilterRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BoxFilterRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandselect.BandSelectCRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDFTRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DFTCRIF
+30-Apr-2024 08:59:00.755 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.buffer.BufferRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibErodeRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ErodeRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyConstRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyConstCRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibUnsharpMaskRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.UnsharpMaskRIF
+30-Apr-2024 08:59:00.756 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.vectorbin.VectorBinarizeRIF
+30-Apr-2024 08:59:00.757 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinFilterRIF
+30-Apr-2024 08:59:00.757 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinFilterRIF
+30-Apr-2024 08:59:00.757 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExpRIF
+30-Apr-2024 08:59:00.757 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExpCRIF
+30-Apr-2024 08:59:00.757 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ColorQuantizerRIF
+30-Apr-2024 08:59:00.758 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OverlayCRIF
+30-Apr-2024 08:59:00.758 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndConstRIF
+30-Apr-2024 08:59:00.758 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndConstCRIF
+30-Apr-2024 08:59:00.759 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileLoadRIF
+30-Apr-2024 08:59:00.759 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleAverageRIF
+30-Apr-2024 08:59:00.759 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleAverageCRIF
+30-Apr-2024 08:59:00.759 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.scale.Scale2CRIF
+30-Apr-2024 08:59:00.763 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibThresholdRIF
+30-Apr-2024 08:59:00.763 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ThresholdCRIF
+30-Apr-2024 08:59:00.763 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MatchCDFCRIF
+30-Apr-2024 08:59:00.763 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyComplexCRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.scale.ScaleCRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideCRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibClampRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ClampCRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class org.jaitools.media.jai.contour.ContourRIF
+30-Apr-2024 08:59:00.764 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.stats.StatisticsRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.affine.AffineCRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.lookup.LookupCRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AWTImageRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeCRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleBinaryToGrayRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleBinaryToGrayCRIF
+30-Apr-2024 08:59:00.765 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibNotRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.NotCRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDCTRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDCTCRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideIntoConstRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideIntoConstCRIF
+30-Apr-2024 08:59:00.766 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.imagefunction.ImageFunctionRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMedianFilterRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MedianFilterRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibFilteredSubsampleRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FilteredSubsampleRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinRIF
+30-Apr-2024 08:59:00.767 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinCRIF
+30-Apr-2024 08:59:00.768 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.warp.WarpRIF
+30-Apr-2024 08:59:00.768 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PeriodicShiftCRIF
+30-Apr-2024 08:59:00.768 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FPXRIF
+30-Apr-2024 08:59:00.768 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibTransposeRIF
+30-Apr-2024 08:59:00.768 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TransposeCRIF
+30-Apr-2024 08:59:00.769 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCIF
+30-Apr-2024 08:59:00.769 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstToCollectionCIF
+30-Apr-2024 08:59:00.769 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCIF
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileDecoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileDecoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileDecoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileEncoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileEncoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileEncoderFactory
+30-Apr-2024 08:59:00.770 INFO [Thread-5] org.geoserver.GeoserverInitStartupListener.contextDestroyed Cleaned up javabean caches
+30-Apr-2024 08:59:01.770 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [FileSystemWatcher-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 08:59:01.771 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+ org.geoserver.system.status.OSHISystemInfoCollector.lambda$new$0(OSHISystemInfoCollector.java:91)
+ org.geoserver.system.status.OSHISystemInfoCollector$$Lambda$434/0x00000008012dd000.run(Unknown Source)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 08:59:01.771 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [EMF Reference Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+30-Apr-2024 08:59:01.771 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [GuavaAuthCache-0-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 08:59:01.772 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+30-Apr-2024 08:59:01.772 WARNING [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+30-Apr-2024 08:59:01.773 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@5062a54d]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.774 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@40e6ac24]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [org.springframework.security.core.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.774 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@7ea53ca]) and a value of type [org.geowebcache.storage.CompositeBlobStore.StoreSuitabilityCheck] (value [EXISTING]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.779 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@5062a54d]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.779 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@f7587a5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.780 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@51c753ad]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.780 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@7ecff35]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.780 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@240718c2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.780 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@77da7eb1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.780 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@1ceb11dc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.781 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@7c9e5023]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.781 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@60c3967a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.782 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@44485325]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.783 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@69cf81]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.783 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@ef898e7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.783 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@7274bf04]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.784 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@74a31b14]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.784 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@3af8c7c6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.784 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@708d5fde]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.784 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@27d64254]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.784 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@4bc19601]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.785 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@37fbbe48]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.785 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6666037b]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@2d9264c6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.785 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@32a048f]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@384347c2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.785 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@7ff5af55]) and a value of type [org.geoserver.ows.Request] (value [wms 1.0.0 GetLegendGraphic]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.786 SEVERE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@7ff5af55]) and a value of type [org.geoserver.ows.Request] (value [WMS 1.3.0 GetMap]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 08:59:01.815 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 08:59:01.834 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 10:10:24.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+30-Apr-2024 10:10:24.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+30-Apr-2024 10:10:24.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+30-Apr-2024 10:10:24.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Apr-2024 10:10:24.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.4
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-86
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+30-Apr-2024 10:10:24.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+30-Apr-2024 10:10:24.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 10:10:24.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 10:10:24.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 10:10:24.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/conf/logging.properties
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 10:10:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2024 10:10:24.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+30-Apr-2024 10:10:24.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86
+30-Apr-2024 10:10:24.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/temp
+30-Apr-2024 10:10:24.569 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vatsalpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Apr-2024 10:10:25.916 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 10:10:25.976 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1961] milliseconds
+30-Apr-2024 10:10:26.277 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 10:10:26.278 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+30-Apr-2024 10:10:26.330 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war]
+30-Apr-2024 10:10:42.518 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 10:10:44.687 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+30-Apr-2024 10:10:44.699 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-Apr-2024 10:10:44.703 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-Apr-2024 10:10:44.703 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-Apr-2024 10:10:48.865 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+30-Apr-2024 10:10:48.866 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-Apr-2024 10:10:48.866 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+30-Apr-2024 10:10:48.867 WARNING [main] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+30-Apr-2024 10:11:03.815 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/geoserver.war] has finished in [37,484] ms
+30-Apr-2024 10:11:03.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs]
+30-Apr-2024 10:11:03.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/docs] has finished in [38] ms
+30-Apr-2024 10:11:03.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis]
+30-Apr-2024 10:11:03.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/webgis] has finished in [20] ms
+30-Apr-2024 10:11:03.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager]
+30-Apr-2024 10:11:03.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/manager] has finished in [70] ms
+30-Apr-2024 10:11:03.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples]
+30-Apr-2024 10:11:04.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/examples] has finished in [374] ms
+30-Apr-2024 10:11:04.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT]
+30-Apr-2024 10:11:04.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/ROOT] has finished in [24] ms
+30-Apr-2024 10:11:04.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager]
+30-Apr-2024 10:11:04.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/vatsalpatel/Desktop/mid/apache-tomcat-9.0.86/webapps/host-manager] has finished in [27] ms
+30-Apr-2024 10:11:04.409 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 10:11:04.441 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [38464] milliseconds
+30-Apr-2024 13:54:03.192 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 13:54:03.199 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 13:54:03.205 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 13:54:04.107 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Beginning GeoServer cleanup sequence
+30-Apr-2024 13:54:04.112 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.hsqldb.jdbc.JDBCDriver@593fd72f
+30-Apr-2024 13:54:04.112 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.postgresql.Driver@1110cef5
+30-Apr-2024 13:54:04.113 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.h2.Driver@14503b28
+30-Apr-2024 13:54:04.113 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistered JDBC driver org.sqlite.JDBC@6c152cc8
+30-Apr-2024 13:54:04.125 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverWKTOperationFactory["European Petroleum Survey Group"]
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = PropertyCoordinateOperationAuthorityFactory["European Petroleum Survey Group"]
+    CRS_FACTORY                          = ReferencingObjectFactory                                                      
+    CS_FACTORY                           = (same as CRS_FACTORY)                                                         
+    DATUM_FACTORY                        = DatumAliases                                                                  
+    MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                                   
+
+30-Apr-2024 13:54:04.133 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 13:54:04.350 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 13:54:04.365 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverOverridingWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+30-Apr-2024 13:54:04.367 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 13:54:04.499 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory GeoserverCustomWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+30-Apr-2024 13:54:04.500 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory CartesianAuthorityFactory["European Petroleum Survey Group"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 13:54:04.502 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory AutoCRSFactory["Automatic Projections"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 13:54:04.503 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory WebCRSFactory["Web Map Service CRS"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+30-Apr-2024 13:54:04.504 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 13:54:04.505 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+30-Apr-2024 13:54:04.704 INFO [main] org.geoserver.GeoserverInitStartupListener.disposeAuthorityFactories Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+30-Apr-2024 13:54:04.707 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT referencing threads 
+30-Apr-2024 13:54:04.717 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down GT  SPI 
+30-Apr-2024 13:54:04.717 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Shut down coverage thread pool 
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.cog.CogImageInputStreamSpi@20869506
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.URLImageOutputStreamSpi@47f0e132
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi@ed346e
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi@7c526316
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageReaderSpi@44ce834a
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi@627b9c7d
+30-Apr-2024 13:54:04.719 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi@1d94b913
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi@7e0404cd
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi@57ed45e7
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi@335841d2
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi@41180b15
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi@66e37ff
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.StringImageOutputStreamSpi@65043d51
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi@694ba313
+30-Apr-2024 13:54:04.720 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi@1106b55f
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.FileImageOutputStreamExtImplSpi@577d5edd
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.StringImageInputStreamSpi@5cfae75b
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider org.geotools.geopkg.ByteArrayImageInputStreamSpi@73b5f456
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi@28eeac04
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi@14baf611
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageWriterSpi@39d547f9
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi@5b4ebf23
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi@70113bbf
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.URLImageInputStreamSpi@6cce3cb8
+30-Apr-2024 13:54:04.721 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.cog.CogImageReaderSpi@57e6d85f
+30-Apr-2024 13:54:04.722 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.FileImageInputStreamExtImplSpi@18151228
+30-Apr-2024 13:54:04.724 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyRIF
+30-Apr-2024 13:54:04.724 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyCRIF
+30-Apr-2024 13:54:04.725 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibLogRIF
+30-Apr-2024 13:54:04.725 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.LogCRIF
+30-Apr-2024 13:54:04.725 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNMRIF
+30-Apr-2024 13:54:04.725 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPCRIF
+30-Apr-2024 13:54:04.729 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibGradientRIF
+30-Apr-2024 13:54:04.730 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GradientRIF
+30-Apr-2024 13:54:04.730 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PatternRIF
+30-Apr-2024 13:54:04.730 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PNGRIF
+30-Apr-2024 13:54:04.731 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.nullop.NullCRIF
+30-Apr-2024 13:54:04.731 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileStoreRIF
+30-Apr-2024 13:54:04.731 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.zonal.ZonalStatsRIF
+30-Apr-2024 13:54:04.731 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCRIF
+30-Apr-2024 13:54:04.732 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.jiffleop.JiffleRIF
+30-Apr-2024 13:54:04.732 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandcombine.BandCombineCRIF
+30-Apr-2024 13:54:04.732 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.translate.TranslateCRIF
+30-Apr-2024 13:54:04.732 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibConvolveRIF
+30-Apr-2024 13:54:04.733 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConvolveRIF
+30-Apr-2024 13:54:04.733 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDCTRIF
+30-Apr-2024 13:54:04.733 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DCTCRIF
+30-Apr-2024 13:54:04.733 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.GIFRIF
+30-Apr-2024 13:54:04.733 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.format.FormatCRIF
+30-Apr-2024 13:54:04.734 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IIPResolutionRIF
+30-Apr-2024 13:54:04.734 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddRIF
+30-Apr-2024 13:54:04.734 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCRIF
+30-Apr-2024 13:54:04.734 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxRIF
+30-Apr-2024 13:54:04.735 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxCRIF
+30-Apr-2024 13:54:04.735 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.border.BorderRIF
+30-Apr-2024 13:54:04.735 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.rescale.RescaleCRIF
+30-Apr-2024 13:54:04.735 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.binarize.BinarizeCRIF
+30-Apr-2024 13:54:04.736 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideComplexCRIF
+30-Apr-2024 13:54:04.736 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDilateRIF
+30-Apr-2024 13:54:04.736 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DilateRIF
+30-Apr-2024 13:54:04.736 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibHistogramRIF
+30-Apr-2024 13:54:04.736 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.HistogramRIF
+30-Apr-2024 13:54:04.737 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddCollectionCRIF
+30-Apr-2024 13:54:04.737 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.URLRIF
+30-Apr-2024 13:54:04.737 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class org.jaitools.media.jai.vectorize.VectorizeRIF
+30-Apr-2024 13:54:04.737 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PolarToComplexCRIF
+30-Apr-2024 13:54:04.738 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.colorindexer.ColorIndexerCRIF
+30-Apr-2024 13:54:04.738 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.classbreaks.ClassBreaksRIF
+30-Apr-2024 13:54:04.738 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractConstRIF
+30-Apr-2024 13:54:04.738 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractConstCRIF
+30-Apr-2024 13:54:04.739 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxFilterRIF
+30-Apr-2024 13:54:04.739 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MaxFilterRIF
+30-Apr-2024 13:54:04.740 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.JPEGRIF
+30-Apr-2024 13:54:04.740 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.errordiffusion.ErrorDiffusionRIF
+30-Apr-2024 13:54:04.741 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.algebra.constant.OperationConstCRIF
+30-Apr-2024 13:54:04.742 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.piecewise.GenericPiecewiseCRIF
+30-Apr-2024 13:54:04.746 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCRIF
+30-Apr-2024 13:54:04.747 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMeanRIF
+30-Apr-2024 13:54:04.747 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MeanRIF
+30-Apr-2024 13:54:04.747 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.EncodeRIF
+30-Apr-2024 13:54:04.747 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PhaseCRIF
+30-Apr-2024 13:54:04.747 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConjugateCRIF
+30-Apr-2024 13:54:04.748 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.orderdither.OrderedDitherRIF
+30-Apr-2024 13:54:04.749 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrRIF
+30-Apr-2024 13:54:04.749 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrCRIF
+30-Apr-2024 13:54:04.749 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.shadedrelief.ShadedReliefRIF
+30-Apr-2024 13:54:04.750 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandmerge.BandMergeCRIF
+30-Apr-2024 13:54:04.750 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.crop.CropCRIF
+30-Apr-2024 13:54:04.750 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExtremaRIF
+30-Apr-2024 13:54:04.750 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExtremaRIF
+30-Apr-2024 13:54:04.750 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractRIF
+30-Apr-2024 13:54:04.751 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractCRIF
+30-Apr-2024 13:54:04.751 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ConstantCRIF
+30-Apr-2024 13:54:04.751 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDFTRIF
+30-Apr-2024 13:54:04.752 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDFTCRIF
+30-Apr-2024 13:54:04.752 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibInvertRIF
+30-Apr-2024 13:54:04.752 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.InvertCRIF
+30-Apr-2024 13:54:04.753 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PiecewiseCRIF
+30-Apr-2024 13:54:04.753 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideByConstRIF
+30-Apr-2024 13:54:04.753 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideByConstCRIF
+30-Apr-2024 13:54:04.753 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrConstRIF
+30-Apr-2024 13:54:04.754 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OrConstCRIF
+30-Apr-2024 13:54:04.754 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.mosaic.MosaicRIF
+30-Apr-2024 13:54:04.754 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.algebra.AlgebraCRIF
+30-Apr-2024 13:54:04.755 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibRotateRIF
+30-Apr-2024 13:54:04.755 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.RotateCRIF
+30-Apr-2024 13:54:04.756 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorConstRIF
+30-Apr-2024 13:54:04.756 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorConstCRIF
+30-Apr-2024 13:54:04.759 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibShearRIF
+30-Apr-2024 13:54:04.759 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ShearRIF
+30-Apr-2024 13:54:04.763 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeSquaredCRIF
+30-Apr-2024 13:54:04.763 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddConstRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstCRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.rlookup.RangeLookupRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndCRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.StreamRIF
+30-Apr-2024 13:54:04.764 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.colorconvert.ColorConvertCRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.XorCRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.classifier.RasterClassifierCRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAbsoluteRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AbsoluteCRIF
+30-Apr-2024 13:54:04.765 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractFromConstRIF
+30-Apr-2024 13:54:04.766 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubtractFromConstCRIF
+30-Apr-2024 13:54:04.766 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibCompositeRIF
+30-Apr-2024 13:54:04.766 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.CompositeCRIF
+30-Apr-2024 13:54:04.766 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BMPRIF
+30-Apr-2024 13:54:04.766 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TIFFRIF
+30-Apr-2024 13:54:04.767 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibBoxFilterRIF
+30-Apr-2024 13:54:04.767 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.BoxFilterRIF
+30-Apr-2024 13:54:04.767 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.bandselect.BandSelectCRIF
+30-Apr-2024 13:54:04.767 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDFTRIF
+30-Apr-2024 13:54:04.767 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DFTCRIF
+30-Apr-2024 13:54:04.768 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.buffer.BufferRIF
+30-Apr-2024 13:54:04.768 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibErodeRIF
+30-Apr-2024 13:54:04.768 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ErodeRIF
+30-Apr-2024 13:54:04.769 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyConstRIF
+30-Apr-2024 13:54:04.769 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyConstCRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibUnsharpMaskRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.UnsharpMaskRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.vectorbin.VectorBinarizeRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinFilterRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinFilterRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibExpRIF
+30-Apr-2024 13:54:04.770 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ExpCRIF
+30-Apr-2024 13:54:04.771 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ColorQuantizerRIF
+30-Apr-2024 13:54:04.771 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.OverlayCRIF
+30-Apr-2024 13:54:04.771 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndConstRIF
+30-Apr-2024 13:54:04.771 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AndConstCRIF
+30-Apr-2024 13:54:04.772 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FileLoadRIF
+30-Apr-2024 13:54:04.772 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleAverageRIF
+30-Apr-2024 13:54:04.773 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleAverageCRIF
+30-Apr-2024 13:54:04.775 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.scale.Scale2CRIF
+30-Apr-2024 13:54:04.776 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibThresholdRIF
+30-Apr-2024 13:54:04.779 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ThresholdCRIF
+30-Apr-2024 13:54:04.779 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MatchCDFCRIF
+30-Apr-2024 13:54:04.780 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyComplexCRIF
+30-Apr-2024 13:54:04.780 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.scale.ScaleCRIF
+30-Apr-2024 13:54:04.781 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideRIF
+30-Apr-2024 13:54:04.781 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideCRIF
+30-Apr-2024 13:54:04.781 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibClampRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.ClampCRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class org.jaitools.media.jai.contour.ContourRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.stats.StatisticsRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.affine.AffineCRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.lookup.LookupCRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AWTImageRIF
+30-Apr-2024 13:54:04.782 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeCRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleBinaryToGrayRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleBinaryToGrayCRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibNotRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.NotCRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDCTRIF
+30-Apr-2024 13:54:04.783 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.IDCTCRIF
+30-Apr-2024 13:54:04.784 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideIntoConstRIF
+30-Apr-2024 13:54:04.784 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.DivideIntoConstCRIF
+30-Apr-2024 13:54:04.784 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.imagefunction.ImageFunctionRIF
+30-Apr-2024 13:54:04.784 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMedianFilterRIF
+30-Apr-2024 13:54:04.784 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MedianFilterRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibFilteredSubsampleRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FilteredSubsampleRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.MinCRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class it.geosolutions.jaiext.warp.WarpRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.PeriodicShiftCRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.FPXRIF
+30-Apr-2024 13:54:04.785 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.mlib.MlibTransposeRIF
+30-Apr-2024 13:54:04.786 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.TransposeCRIF
+30-Apr-2024 13:54:04.786 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCIF
+30-Apr-2024 13:54:04.786 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.opimage.AddConstToCollectionCIF
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCIF
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileDecoderFactory
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileDecoderFactory
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileDecoderFactory
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileEncoderFactory
+30-Apr-2024 13:54:04.787 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileEncoderFactory
+30-Apr-2024 13:54:04.788 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileEncoderFactory
+30-Apr-2024 13:54:04.788 INFO [main] org.geoserver.GeoserverInitStartupListener.contextDestroyed Cleaned up javabean caches
+30-Apr-2024 13:54:05.996 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [FileSystemWatcher-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 13:54:05.997 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+ org.geoserver.system.status.OSHISystemInfoCollector.lambda$new$0(OSHISystemInfoCollector.java:91)
+ org.geoserver.system.status.OSHISystemInfoCollector$$Lambda$434/0x00000008012de050.run(Unknown Source)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 13:54:05.998 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [EMF Reference Cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+30-Apr-2024 13:54:05.998 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [GuavaAuthCache-0-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+30-Apr-2024 13:54:05.999 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+30-Apr-2024 13:54:05.999 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [geoserver] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/java.lang.Object.wait(Native Method)
+ java.base@17.0.2/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.2/java.util.TimerThread.run(Timer.java:516)
+30-Apr-2024 13:54:06.001 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@5bd8238]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.002 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@41d804dd]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [org.springframework.security.core.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.002 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@11362cfb]) and a value of type [org.geowebcache.storage.CompositeBlobStore.StoreSuitabilityCheck] (value [EXISTING]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.002 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@5bd8238]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.003 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@12a9af38]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.003 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@6b3bb8cc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.004 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@4f9cc839]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.005 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@10136e9d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.005 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@14b19b1f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.005 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@227abc9d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.006 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@b8e65eb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.006 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@e28581]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.006 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@18138fe1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.006 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@6f7a562a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.006 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@17a3c713]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.007 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@37986eb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.007 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@7116de2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.007 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@3a67a02c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.007 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@33f5732c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.007 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@7c74f567]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.008 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@7086f976]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.008 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@7767418a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.011 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f00e7c]) and a value of type [org.geotools.data.postgis.TWKBAttributeIO] (value [org.geotools.data.postgis.TWKBAttributeIO@6f133059]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.012 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@626cc941]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@34172f11]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.012 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@739d3dac]) and a value of type [org.geoserver.ows.Request] (value [wms 1.0.0 GetLegendGraphic]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.012 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [geoserver] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@739d3dac]) and a value of type [org.geoserver.ows.Request] (value [WMS 1.3.0 GetMap]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Apr-2024 13:54:06.038 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 13:54:06.054 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

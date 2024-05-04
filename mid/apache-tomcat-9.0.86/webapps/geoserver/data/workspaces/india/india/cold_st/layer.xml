@@ -1,0 +1,16 @@
+<layer>
+  <name>cold_st</name>
+  <id>LayerInfoImpl-636356d7:18f22f3a9a5:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-636356d7:18f22f3a9a5:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-28 04:27:48.559 UTC</dateCreated>
+</layer>

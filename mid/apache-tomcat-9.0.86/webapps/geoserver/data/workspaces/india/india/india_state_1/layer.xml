@@ -1,0 +1,17 @@
+<layer>
+  <name>india_state_1</name>
+  <id>LayerInfoImpl-636356d7:18f22f3a9a5:-7ff6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1a094a54:18f2819f7dd:-7ff9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-636356d7:18f22f3a9a5:-7ff7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-04-28 04:29:55.247 UTC</dateCreated>
+  <dateModified>2024-04-29 04:39:31.699 UTC</dateModified>
+</layer>
